@@ -3,6 +3,10 @@
                 prelimineies
 ==================================================
 */
+/* ===== google fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 *,
 *::after,
@@ -63,11 +67,6 @@ button[type="submit"],
 button[type="reset"]{
     cursor: pointer;
 }
-
-/* ===== google fonts ===== */
-// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 /*
 ==================================================
@@ -1017,7 +1016,7 @@ header{
             border-radius: 50%;
             font-size: 25px;
             background: $color1;
-            color: $color5;
+            color: #36617f;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -1221,6 +1220,7 @@ header{
                 background: #fff;
                 color: #36617F;
                 &:hover{
+                    color: #fff;
                     background: $color5;
                 }
             }
@@ -1618,7 +1618,7 @@ header{
                     border-radius: 5px;
                     font-weight: 600;
                     &:hover{
-                        background:  $color5;
+                        background:  $color4;
                     }
                 }
             }

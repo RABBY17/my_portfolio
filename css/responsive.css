@@ -384,6 +384,9 @@
     header .header__content {
         margin: 0 20px;
     }
+    .banner .banner_content .banner_image img {
+        border: 8px solid #f2f2f9;
+    }
     .portfolio__items {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
